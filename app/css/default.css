@@ -1,0 +1,238 @@
+body
+{
+    //font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #141823;
+    //background-color: #fff;
+    overflow-x: hidden;
+    margin: 0px auto;
+}
+.center {
+  text-align: center;
+}
+.containers {
+  justify-content: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 10px;
+
+
+}
+div
+{
+    display:block;
+}
+
+.mainheader
+{
+    background-color: #428bca;
+}
+
+
+.topnav a
+{
+    color : yellow;
+    font-size: 15px;
+    float:left;
+    padding-top : 2%;
+    padding-bottom: 2%;
+}
+
+.topright a
+{
+    float:right;
+    color : yellow;
+    font-size: 15px;
+    padding-top : 2%;
+    padding-bottom: 0.90%;
+}
+
+.topright a:hover
+{
+    color:green;
+    text-decoration: none;
+}
+
+.topnav a:hover
+{
+    color:green;
+    text-decoration: none;
+
+}
+
+.listInput
+{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 33%;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.inputBox
+{
+    width:50% !important;
+    margin-top : 20px;
+}
+
+.date
+{
+    padding: 0px;
+}
+
+.title
+{
+    width : 45% !important;
+}
+
+.addButton
+{
+    width: 50% !important;
+    margin-top: 20px;
+   //margin-left: 40%;
+}
+
+.note_area {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+}
+
+.button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul, li {
+	list-style: none;
+}
+
+
+ul li textarea {
+	font-family: 'Chewy', arial, sans-serif;
+	background: rgba(0, 0, 0, 0); /* transparent background */
+	resize: none;
+	padding: 3px;
+	border-style: none;
+}
+
+.timestamp{
+    margin-top: 200px;
+    font-style: italic;
+    color:red;
+}
+
+.post{
+    margin:0 auto;
+    width: 50%;
+    height: 80%;
+    margin-top : 2%;
+    //border : 1px solid gainsboro;
+    //box-shadow: 1px 1px #b5b2b2;
+    padding : 15px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.post:hover {
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.postContent{
+    height: 50%;
+    padding : 10px;
+    //border : 1px solid ;
+    color: #c0392b;
+}
+
+.feeds{
+    margin-top: 1%;
+    padding: 10px;
+}
+
+.feeds a{
+    text-decoration: none;
+}
+
+
+.updated
+{
+    margin-top: -25px !important;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 2px;
+    margin-top : 8%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    float:right;
+}
+
+.updated:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.note-title {
+	font-size: 110%;
+	font-weight: bold;
+	min-height: 30px;
+	width: 80%;
+}
+
+.note-content {
+    float:left;
+    margin-top: 10px;
+	font-size:120%;
+	min-height: 175px;
+	width: 100%;
+}
+
+textarea {
+  height:auto;
+}
+
+.noteImage
+{
+    float:left;
+    margin-left:0px;
+    position: inherit;
+    width: 195px;
+    height: 180px;
+}
+
+.comments{
+    margin-top:2%;
+}
+
+.comment{
+    background-color: gainsboro;
+    margin-top : 2%;
+    margin-bottom : 2%;
+}
+
+label
+{
+    display:inline;
+    margin-bottom: 0px;
+    color: black;
+}
