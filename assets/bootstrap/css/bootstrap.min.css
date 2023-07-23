@@ -1089,6 +1089,12 @@ body {
   color: #fff;
   background-color: #100e1c;
 }
+
+b {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
 input,
 button,
 select,
