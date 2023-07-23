@@ -2,7 +2,9 @@
 
 
 
-
+.center {
+text-align: center;
+}
 
 #header1-40 .btn {
   font-size: 20px;
